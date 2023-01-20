@@ -11,5 +11,4 @@ export default {
     password: process.env.DB_PASSWORD || 'root',
     database: process.env.DB_DATABASE || '',
   },
-  salt: process.env.SALT,
 };
